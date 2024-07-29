@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SWASTHYA SANGI </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href="#"><i class="bi bi-telephone me-2"></i>+012
+                            345 6789</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href="#"><i
+                                class="bi bi-envelope me-2"></i>swasthyasangi@gmail.com</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm mb-5">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>SWASTHYA SANGI
+                    </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Featured</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="search.html" class="dropdown-item">Search</a>
+                                <a href="appointment.html" class="dropdown-item">Lab Test</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Appointment</h5>
+                        <h1 class="display-4">Explore our labs now and book your tests today. Stay Healthy!</h1>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 me-3" href="">Find Lab</a>
+                    </div>
+                    <p class="mb-5">Spending hours in a queue at a diagnostic lab or a hospital is now a thing of the
+                        past. With SWASTHYA SANGI you can get your lab tests done from the comfort of your home. Our
+                        highly qualified phlebotomist will collect the samples at your preferred time. Book your next
+                        lab test with SWASTHYA SANGI at the lowest price guaranteed!</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light text-center rounded p-5">
+                        <h1 class="mb-4">Book A Lab Test</h1>
+                        <p id="demo"></p>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select bg-white border-0" style="height: 55px;" id="department">
+                                    <option selected>Choose Department</option>
+                                    <option value="Orthopaedic Surgeon">Orthopaedic Surgeon</option>
+                                    <option value="child">child</option>
+                                    <option value="dentist">dentist</option>
+                                    <option value="Family_medicine">Family medicine</option>
+                                    <option value="Cardiologist">Cardiologist</option>
+                                    <option value="Physician (MD Medicine)">Physician (MD Medicine)</option>
+                                    <option value="Neurologist">Neurologist</option>
+                                    <option value=" Surgeon"> Surgeon</option>
+                                
+                                    
+                                    
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select bg-white border-0" style="height: 55px;" id="booking">
+                                    <option value="Lab">Laboratories test</option>
+                                    <option value="Hometest">Home Test</option>
+                                    <option value="Car"> Car</option>
+                                    <option value="lab&Car">Lab Test And Car</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select bg-white border-0" style="height: 55px;" id="doctor">
+                                    <option selected>Select Doctor</option>
+                                    <option value="Dr. Abbas Ali">Dr. Abbas Ali</option>
+                                    <option value="Dr. Acharya Mukta Shrigaur">Dr. Acharya Mukta Shrigaur </option>
+                                    <option value="Dr. Acharya Nitin">Dr. Acharya Nitin</option>
+                                    <option value="dr. Agrawal Ambuj Lochan">Dr. Agrawal Ambuj Lochan</option>
+                                    <option value="Dr. Agrawal Amit">Dr. Agrawal Amit</option>
+                                    <option value="Dr. Agrawal Ashish"> Dr. Agrawal Ashish</option>
+                                    <option value="Dr. Agrawal G.L."> Dr. Agrawal G.L.</option>
+                                    <option value="Dr. Agrawal Richa"> Dr. Agrawal Richa</option>
+                                    <option value="Dr. Agrawal Vijay"> Dr. Agrawal Vijay</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name"
+                                    style="height: 55px;" id="name">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email"
+                                    style="height: 55px;" id="email">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Phone"
+                                    style="height: 55px;" id="phone">
+                            </div>
+            
+                            <div class="col-12 col-sm-6">
+                                <div class="date" id="edate" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-white border-0 datetimepicker-input"
+                                        placeholder="Date" data-target="#date" data-toggle="datetimepicker"
+                                        style="height: 55px;" id="date">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="time" id="dtime" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-white border-0 datetimepicker-input"
+                                        placeholder="time" data-target="#time" data-toggle="datetimepicker"
+                                        style="height: 55px;" id="time">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit" id="btn">Book A Lab
+                                    Test</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                        Get In Touch</h4>
+
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>India</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>swasthyasangi@gmail.com</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91 7000994118</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                        Quick Links</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="about.html"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="search.html"><i class="fa fa-angle-right me-2"></i>Our
+                            Services</a>
+                        <a class="text-light" href="contact.html"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+        import { getDatabase, ref, get, set, child, update, remove } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCqut5_0pETuOQYha92sWXXJcRuxvtGMHo",
+            authDomain: "collage-project-bbce2.firebaseapp.com",
+            databaseURL: "https://collage-project-bbce2-default-rtdb.firebaseio.com",
+            projectId: "collage-project-bbce2",
+            storageBucket: "collage-project-bbce2.appspot.com",
+            messagingSenderId: "538221538455",
+            appId: "1:538221538455:web:d39c09e9c6138d7e56cdd2",
+            measurementId: "G-WRPW1526SK"
+        };
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const dbb = getDatabase();
+
+        var name = document.getElementById("name");
+        var department = document.getElementById("department");
+        var doctor = document.getElementById("doctor");
+        var email = document.getElementById("email");
+        var time = document.getElementById("time");
+        var date = document.getElementById("date");
+        var booking = document.getElementById("booking");
+        var PNo = document.getElementById("phone")
+
+        var submitbtn = document.getElementById("btn");
+        let x = Math.floor(Math.random() * 10000000);
+
+
+        function insertdata() {
+            if (department.value == "" || doctor.value == "" || name.value == "" || email.value == "" || time.value == "" || date.value == "" || booking.value == ""|| PNo.value=="") {
+                document.getElementById("demo")
+                    .innerHTML = "<h6 class='text-center' style='height:40px;display:block;color:#ff0037;'>Please Fill All The Feilds !</h6>";
+            }
+            else {
+                document.getElementById("demo")
+                    .innerHTML = "<h6 class='text-center' style='height:40px;display:block;color:#ffef48;'>Data Format is Correct</h6>";
+                set(ref(dbb, booking.value + "/" + x), {
+                    ID: x,
+                    Department: department.value,
+                    Doctor: doctor.value,
+                    name: name.value,
+                    Email: email.value,
+                    Time: time.value,
+                    Date: date.value
+
+                }).then(() => {
+                    alert("Booked Successfully!]\n Your Request Code Is " + x);
+                   
+                   var txt ="<h6 class='text-center' style='height:40px;display:block;color:#09ff00;'>Succesfully Booked!! Please Note Your Code \n"+x+ "</h6>";
+                    document.getElementById("demo")
+                        .innerHTML = txt;
+                })
+                    .catch((error) => {
+                        alert("Oops ! Something went wrong" + error);
+                    });
+            }
+        }
+
+        submitbtn.addEventListener('click', insertdata);
+
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
